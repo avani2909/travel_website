@@ -1,0 +1,586 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel website</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./travel.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#category">category</a>
+        <a href="#packages">packages</a>
+        <a href="./feedback.tml.html">feedback</a>
+        <a href="#contact">contact</a>
+        <a href="#aboutus">about</a>
+        
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>dicover new places with us, adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="./travel_images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="./travel_images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="./travel_images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="./travel_images/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="./travel_images/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="./travel_images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- category section starts -->
+
+<section class="category" id="category">
+
+    <h1 class="heading">
+        <span>c</span>
+        <span>a</span>
+        <span>t</span>
+        <span>e</span>
+        
+        <span>g</span>
+        <span>o</span>
+        <span>r</span>
+		<span>y</span>
+    </h1>
+
+    <div class="body">
+		
+		<div class="tours">
+			<div class="places">
+				<h1>Hills Station</h1>
+				<h2>The gap <br> year</h2>
+				<img src=" ./travel_images/sh4.jpg" style="width: 350px; height: 300px; border-radius: 10px;">
+				<br>
+				<br>
+				<a href="./hillstation.htl.html">VISIT</a>
+			</div>
+			<div class="places">
+				<h1>Metropolis</h1>
+				<h2>Time<br>Traveller</h2>
+				<img src="./travel_images/dp2.jfif" style="width: 350px; height: 300px; border-radius: 15px;">
+				<br>
+				<br>
+				<a href="./metro.html">VISIT</a>
+			</div>
+			<div class="places">
+			     <h1>Beaches</h1>
+				<h2>The package <br> holiday</h2>
+				<img src="./travel_images/g6.jfif" style="width: 350px; height: 300px; border-radius: 15px;">
+				<br>
+				<br>
+				<a href="./beaches.html">VISIT</a>
+			</div>
+		</div>
+	</div>
+	</div>
+</section>
+
+<!-- category section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="./travel_images/ooty.gif.gif" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Ooty </h3>
+                <p>Ooty is a short for Udhagamandalam is a resort town in the Western Ghats mountains,in southern India's Tamil Nadu state.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                
+                <a href="#" class="btn">book now</a>
+            </div>
+           
+        </div>
+        
+        <div class="box">
+            <img src="./travel_images/assam.gif.gif" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Assam </h3>
+                <p>Assam is a state in northeastern India known for its wildlife, archeological sites and tea plantations.In the west, Guwahati, Assam’s l
+                    argest city, features silk bazaars and the hilltop Kamakhya Temple.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                
+                <a href="https://www.booking.com/index.html?aid=309654;label=booking-be-en-ausnz-rJ1ePN5B5HFvUtLXjDKBcQS433577572948:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-4735284548:lp9040199:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg;ws=&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcLzBAiPnmk2NHw4jf3Yz0qSa6GVRi11KniZivVYZwd8NRNb96oaGUoaAh1yEALw_wcB" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./travel_images/mussoorie.gif.gif" alt="">
+			<div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>Mussoorie</h3>
+                <p>Mussoorie is a hill station and a municipal board in the Dehradun district of the Indian state of Uttarakhand. 
+                     The hill station is in the foothills of the Garhwal Himalayan range.!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               
+                <a href="https://www.booking.com/index.html?aid=309654;label=booking-be-en-ausnz-rJ1ePN5B5HFvUtLXjDKBcQS433577572948:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-4735284548:lp9040199:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg;ws=&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcLzBAiPnmk2NHw4jf3Yz0qSa6GVRi11KniZivVYZwd8NRNb96oaGUoaAh1yEALw_wcB" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./travel_images/laddakh.gif.gif" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>Laddakh</h3>
+                <p>Located in the Ladakh region of Jammu and Kashmir, Leh is known for its stunning scenic locales, Buddhist temples and pristine 
+                    environment. Due to the strong influence of Tibetan Buddhism, 
+                    Leh is also known as Little Tibet or the Land of Lamas.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               
+                <a href="https://www.booking.com/index.html?aid=309654;label=booking-be-en-ausnz-rJ1ePN5B5HFvUtLXjDKBcQS433577572948:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-4735284548:lp9040199:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg;ws=&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcLzBAiPnmk2NHw4jf3Yz0qSa6GVRi11KniZivVYZwd8NRNb96oaGUoaAh1yEALw_wcB" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./travel_images/shrinAGAR.gif.gif" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>Shrinagar</h3>
+                <p>Srinagar is the largest city and the summer capital of Jammu and Kashmir. It lies in the Kashmir Valley on the banks of the
+                     Jhelum River, a tributary of the Indus, and Dal and Anchar lakes.
+                     The city is known for its natural environment, gardens, waterfronts and houseboats.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               
+                <a href="https://www.booking.com/index.html?aid=309654;label=booking-be-en-ausnz-rJ1ePN5B5HFvUtLXjDKBcQS433577572948:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-4735284548:lp9040199:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg;ws=&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcLzBAiPnmk2NHw4jf3Yz0qSa6GVRi11KniZivVYZwd8NRNb96oaGUoaAh1yEALw_wcB" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./travel_images/darjeeling.gif.gif" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>Darjeeling</h3>
+                <p>Darjeeling is a town in India's West Bengal state, in the Himalayan foothills.  It's famed for the distinctive black tea grown 
+                    on plantations that dot its surrounding slopes. Its backdrop is Mt. Kanchenjunga, among the world’s highest peaks.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               
+                <a href="https://www.booking.com/index.html?aid=309654;label=booking-be-en-ausnz-rJ1ePN5B5HFvUtLXjDKBcQS433577572948:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-4735284548:lp9040199:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg;ws=&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcLzBAiPnmk2NHw4jf3Yz0qSa6GVRi11KniZivVYZwd8NRNb96oaGUoaAh1yEALw_wcB" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./travel_images/shillong.gif.gif" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>Shillong</h3>
+                <p>Shillong is a hill station in northeast India and capital of the state of Meghalaya. It’s known for the manicured
+                     gardens at Lady Hydari Park. Nearby, Ward’s Lake is surrounded by walking trails. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               
+                <a href="https://www.booking.com/index.html?aid=309654;label=booking-be-en-ausnz-rJ1ePN5B5HFvUtLXjDKBcQS433577572948:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-4735284548:lp9040199:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg;ws=&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcLzBAiPnmk2NHw4jf3Yz0qSa6GVRi11KniZivVYZwd8NRNb96oaGUoaAh1yEALw_wcB" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./travel_images/mumbai.gif.gif" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Mumbai </h3>
+                <p>“Mumbai is the sweet, sweaty smell of hope, which is the opposite of hate; and it's the sour, stifled smell of greed, which 
+                    is the opposite of love. It's the smell of Gods, demons, empires, and civilizations in resurrection and decay.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               
+                <a href="https://www.booking.com/index.html?aid=309654;label=booking-be-en-ausnz-rJ1ePN5B5HFvUtLXjDKBcQS433577572948:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-4735284548:lp9040199:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg;ws=&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcLzBAiPnmk2NHw4jf3Yz0qSa6GVRi11KniZivVYZwd8NRNb96oaGUoaAh1yEALw_wcB" class="btn">book now</a>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="./travel_images/pune.gif.gif" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Pune </h3>
+                <p>Pune is a sprawling city in the western Indian state of Maharashtra.It was once the base of the Peshwas of the
+                 Maratha Empire,which lasted from 1674 to 1818.It's known for the grand Aga Khan Palace,built in 1892 and 
+                 now a memorial to Mahatma Gandhi,whose ashes are preserved in the garden</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="https://www.booking.com/index.html?aid=309654;label=booking-be-en-ausnz-rJ1ePN5B5HFvUtLXjDKBcQS433577572948:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-4735284548:lp9040199:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg;ws=&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcLzBAiPnmk2NHw4jf3Yz0qSa6GVRi11KniZivVYZwd8NRNb96oaGUoaAh1yEALw_wcB" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./travel_images/chennai.gif.gif" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>Chennai</h3>
+                <p>Chennai, on the Bay of Bengal in eastern India, is the capital of the state of Tamil Nadu. The city is home to 
+                    Fort St. George, built in 1644 and now a museum showcasing the city’s 
+                    roots as a British military garrison and East India Company trading outpost, when it was called Madras.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                
+                <a href="https://www.booking.com/index.html?aid=309654;label=booking-be-en-ausnz-rJ1ePN5B5HFvUtLXjDKBcQS433577572948:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-4735284548:lp9040199:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg;ws=&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcLzBAiPnmk2NHw4jf3Yz0qSa6GVRi11KniZivVYZwd8NRNb96oaGUoaAh1yEALw_wcB" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./travel_images/kolkata.gif.gif" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>calcutta</h3>
+                <p>Calcutta is the capital of India's West Bengal state. Founded as an East India Company trading post, 
+                    it was India's capital under the British Raj from 1773–1911. Today it’s known for its grand colonial architecture, art galleries
+                     and cultural festivals.
+                     It’s also home to Mother House, headquarters of the Missionaries of Charity, founded by Mother Teresa, whose tomb is on site.
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               
+                <a href="https://www.booking.com/index.html?aid=309654;label=booking-be-en-ausnz-rJ1ePN5B5HFvUtLXjDKBcQS433577572948:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-4735284548:lp9040199:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg;ws=&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcLzBAiPnmk2NHw4jf3Yz0qSa6GVRi11KniZivVYZwd8NRNb96oaGUoaAh1yEALw_wcB" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./travel_images/banglore.gif.gif" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>Bengluru</h3>
+                <p>Bengaluru (also called Bangalore) is the capital of India's southern Karnataka state. 
+                    The center of India's high-tech industry, the city is also known for its parks and nightlife.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               
+                <a href="https://www.booking.com/index.html?aid=309654;label=booking-be-en-ausnz-rJ1ePN5B5HFvUtLXjDKBcQS433577572948:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-4735284548:lp9040199:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg;ws=&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcLzBAiPnmk2NHw4jf3Yz0qSa6GVRi11KniZivVYZwd8NRNb96oaGUoaAh1yEALw_wcB" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./travel_images/hyderabad.gif.gif" alt=""> 
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>Hyderabad</h3>
+                <p>Hyderabad is the capital of southern India's Telangana state. A major center for the technology industry, 
+                    it's home to many upscale restaurants and shops. Its historic 
+                    sites include Golconda Fort, a former diamond-trading center that was once the Qutb Shahi dynastic capital.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               
+                <a href="https://www.booking.com/index.html?aid=309654;label=booking-be-en-ausnz-rJ1ePN5B5HFvUtLXjDKBcQS433577572948:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-4735284548:lp9040199:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg;ws=&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcLzBAiPnmk2NHw4jf3Yz0qSa6GVRi11KniZivVYZwd8NRNb96oaGUoaAh1yEALw_wcB" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./travel_images/andaman.gif.gif" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Andaman and nicobar </h3>
+                <p>The Andaman Islands are an Indian archipelago in the Bay of Bengal. These roughly 300 islands are known for their 
+                    palm-lined, white-sand beaches, mangroves and tropical rainforests.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                
+                <a href="https://www.booking.com/index.html?aid=309654;label=booking-be-en-ausnz-rJ1ePN5B5HFvUtLXjDKBcQS433577572948:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-4735284548:lp9040199:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg;ws=&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcLzBAiPnmk2NHw4jf3Yz0qSa6GVRi11KniZivVYZwd8NRNb96oaGUoaAh1yEALw_wcB" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./travel_images/pondicherrry.gif.gif" alt="">
+           
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Pondicherry </h3>
+                <p>Pondicherry,a French colonial settlement in India until 1964,is now a Union Terriory town
+                bounded by the southeastern Tamil NAdu state.Its French legacy is preserved in its French Quater,with tree-lined,
+                mustard-coloured colonial villas and chic boutiques.
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="https://www.booking.com/index.html?aid=309654;label=booking-be-en-ausnz-rJ1ePN5B5HFvUtLXjDKBcQS433577572948:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-4735284548:lp9040199:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg;ws=&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcLzBAiPnmk2NHw4jf3Yz0qSa6GVRi11KniZivVYZwd8NRNb96oaGUoaAh1yEALw_wcB" class="btn">book now</a>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="./travel_images/orissa.gif.gif" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>Orrisa </h3>
+                <p>Orissa,an eastern Indian state on the BAy of BEngal,is known for its trial cultures and its many ancient Hindu Temples.
+                    the captial,BHubaneshwar,is home to hundereds of temples,notably the intricately-carved Mukteshwar.
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                
+                <a href="https://www.booking.com/index.html?aid=309654;label=booking-be-en-ausnz-rJ1ePN5B5HFvUtLXjDKBcQS433577572948:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-4735284548:lp9040199:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg;ws=&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcLzBAiPnmk2NHw4jf3Yz0qSa6GVRi11KniZivVYZwd8NRNb96oaGUoaAh1yEALw_wcB" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./travel_images/kerala.gif.gif" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>Kerala</h3>
+                <p>Kerala, a state on India's tropical Malabar Coast, has nearly 600km of Arabian Sea shoreline. It's known for its 
+                    palm-lined beaches and backwaters, a network of canals. Inland are the Western Ghats,
+                     mountains whose slopes support tea, coffee and spice plantations as well as wildlife.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+               
+                <a href="https://www.booking.com/index.html?aid=309654;label=booking-be-en-ausnz-rJ1ePN5B5HFvUtLXjDKBcQS433577572948:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-4735284548:lp9040199:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg;ws=&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcLzBAiPnmk2NHw4jf3Yz0qSa6GVRi11KniZivVYZwd8NRNb96oaGUoaAh1yEALw_wcB" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./travel_images/goa.gif.gif" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i>Goa</h3>
+                <p>Goa is a state in western India with coastlines stretching along the Arabian Sea. Its long history as a
+                     Portuguese colony prior to 1961 is evident in its preserved 17th-century churches and the area’s tropical spice plantations. 
+                     Goa is also known 
+                    for its beaches, ranging from popular stretches at Baga and Palolem to those in laid-back fishing villages such as Agonda. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                
+                <a href="https://www.booking.com/index.html?aid=309654;label=booking-be-en-ausnz-rJ1ePN5B5HFvUtLXjDKBcQS433577572948:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-4735284548:lp9040199:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg;ws=&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcLzBAiPnmk2NHw4jf3Yz0qSa6GVRi11KniZivVYZwd8NRNb96oaGUoaAh1yEALw_wcB" class="btn">book now</a>
+            </div>
+        </div>
+
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="./travel_images/contact.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+
+<!-- footer section starts-->
+<div id= aboutus></div>
+<div id= aboutus></div>
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>About us</h3>
+            <p>Travel agencies solely depend on the quality of the service they provide. The best part is each
+			customer is different and their needs are also different. The same thing applies to ADK travel websites.
+			To meet customer requirements, websites need to be equipped with tons of features.</p>
+        </div>
+        <div class="box">
+            <h3>Branch Locations</h3>
+            <a href="#">Mumbai</a>
+            <a href="#">Banglore</a>
+            <a href="#">Delhi</a>
+            <a href="#">Hyderabad</a>
+        </div>
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#">home</a>
+            <a href="#">category</a>
+            <a href="#">book</a>
+            <a href="#">gallery</a>
+            <a href="#">about</a>
+            <a href="#">feedback</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>Follow Us</h3>
+            <a href="#">facebook</a>
+			 
+            <a href="#">instagram</a>
+			            
+            <a href="#">twitter</a>
+			
+            <a href="#">linkedin</a>
+		</div>
+
+    </div>
+
+    <h1 class="credit"> Created by <span> Travel with ADK </span> | All rights reserved! </h1>
+
+</section>
+
+
+<script src="./travel.js"></script>
+
+</body>
+</html>
